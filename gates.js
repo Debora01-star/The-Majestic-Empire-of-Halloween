@@ -69,6 +69,10 @@ state.blokken.forEach(function(blok) {
         element = document.createElement("p");
     } else if (blok.type === "knop") {
         element = document.createElement("button");
+    
+    if (blok.id === 3) {
+            element.addEventListener("click", openGates);
+        }
     }
 
     element.textContent = blok.tekst;
@@ -179,3 +183,8 @@ document.getElementById("voegKnopToe").addEventListener("click", function() {
     render();
 
 });
+function openGates() {
+    document.querySelectorAll(".gateDoor").forEach(function(deur) { //eerst zoekt beide deurhelften en daarna looopt door de twee deuren
+        deur.classList.add("open");
+    });
+}

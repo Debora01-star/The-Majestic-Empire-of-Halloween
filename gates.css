@@ -34,6 +34,7 @@ header p {
 
 #gateEntrance {
     min-height: 350px;
+    position: relative;
 }
 
 footer {
@@ -73,4 +74,85 @@ footer {
     border: 2px solid #ff9d00;
     border-radius: 10px;
     padding: 10px;
+}
+#gateDoors {
+    position: absolute;/*plaatst deurcontainer boven de afbeelding*/
+    top: 30%;
+    left: 30%;
+    width: 38%;
+    height: 53%;
+    pointer-events: none;
+}
+.gateDoor {
+    position: absolute;/* plaatst ze binnen de deurcontainer*/
+    top: -1%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(25, 10, 35, 0.25);
+    transition:
+    transform 2s ease-in-out,
+    background-color 2s ease-in-out,
+    box-shadow 2s ease-in-out;
+}   
+
+.leftDoor {
+    left: 5%; 
+    top:auto;
+    bottom: -3%;
+    height: 108%;
+    transform-origin: left center;
+    background-color: rgba(25, 10, 35, 0.18);
+    width: 45%;
+   
+    
+}
+
+.rightDoor {
+    height: 108%;
+    right: 0;
+    top:auto;
+    bottom: -3%;
+    transform-origin: right center;
+    width: 50%;
+    .gateDoor {
+    background-color: rgba(25, 10, 35, 0.18);
+}
+}
+.leftDoor.open {
+    transform: perspective(800px) rotateY(45deg);/*geeft de beweging een 3D-effect*/
+    clip-path: polygon(0 0, 100% 0%, 100% 98%, 0 100%); 
+}
+
+.rightDoor.open {
+    transform: perspective(800px) rotateY(-52deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 120%);
+}
+
+#gateDoors::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 8px;
+    height: 90%;
+
+    background: #e6b3ff;
+    box-shadow: 0 0 25px 10px #b84dff;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+#gateDoors:has(.gateDoor.open)::after {
+    animation: gateLight 2s ease-in-out;
+}
+
+@keyframes gateLight {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
