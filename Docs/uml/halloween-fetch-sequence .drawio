@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="vgVKAnfovRyi1glsqiiN">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Gebruiker" vertex="1">
+          <mxGeometry height="1200" width="100" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Pagina/JS" vertex="1">
+          <mxGeometry height="1200" width="100" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-40" edge="1" parent="BH8upXzpA2tFCgR4xnSI-2" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="finally: schakel laadknop weer in">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="1080" />
+              <mxPoint x="80" y="1110" />
+            </Array>
+            <mxPoint x="50" y="1080" as="sourcePoint" />
+            <mxPoint x="55" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="API" vertex="1">
+          <mxGeometry height="1200" width="100" x="670" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-4" edge="1" parent="1" source="BH8upXzpA2tFCgR4xnSI-1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="BH8upXzpA2tFCgR4xnSI-2" value="">
+          <mxGeometry relative="1" width="80" x="-0.3846" y="180" as="geometry">
+            <mxPoint x="-60" y="10" as="offset" />
+            <Array as="points">
+              <mxPoint x="269.75" y="120" />
+            </Array>
+            <mxPoint x="270" y="120" as="sourcePoint" />
+            <mxPoint x="350" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Klick op knop" vertex="1">
+          <mxGeometry height="30" width="90" x="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Schakelt knop uit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="400" />
+              <mxPoint x="480" y="430" />
+            </Array>
+            <mxPoint x="450" y="400" as="sourcePoint" />
+            <mxPoint x="455" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-8" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Toon Laadmelding">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+              <mxPoint x="480" y="260" />
+            </Array>
+            <mxPoint x="450" y="230" as="sourcePoint" />
+            <mxPoint x="455" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-9" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Maak resultaten leeg">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="320" />
+              <mxPoint x="480" y="350" />
+            </Array>
+            <mxPoint x="450" y="320" as="sourcePoint" />
+            <mxPoint x="455" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-10" edge="1" parent="1" source="BH8upXzpA2tFCgR4xnSI-2" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="BH8upXzpA2tFCgR4xnSI-3" value="fetch() - vraag 5 berichten op">
+          <mxGeometry relative="1" width="80" x="-0.1037" as="geometry">
+            <Array as="points">
+              <mxPoint x="529.75" y="480" />
+            </Array>
+            <mxPoint x="530" y="480" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-11" edge="1" parent="1" source="BH8upXzpA2tFCgR4xnSI-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="BH8upXzpA2tFCgR4xnSI-2" value="HTTP- Response">
+          <mxGeometry relative="1" x="0.1074" as="geometry">
+            <Array as="points">
+              <mxPoint x="529.75" y="560" />
+            </Array>
+            <mxPoint x="610" y="560" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="485" width="580" x="100" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="alt" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-14" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.017;exitY=0.742;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.696;entryDx=0;entryDy=0;entryPerimeter=0;" target="BH8upXzpA2tFCgR4xnSI-12" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.023" as="geometry">
+            <Array as="points" />
+            <mxPoint x="103.4799999999999" y="921.9999999999998" as="sourcePoint" />
+            <mxPoint x="670" y="928.6650000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[response.ok]" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[else: fout]" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Lees JSON-gegevens">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="479" y="670" />
+              <mxPoint x="479" y="700" />
+            </Array>
+            <mxPoint x="449" y="670" as="sourcePoint" />
+            <mxPoint x="454" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="190" width="380" x="120" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-20" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="820" as="sourcePoint" />
+            <mxPoint x="500" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="alt" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[berichten.length &amp;gt; 0]" vertex="1">
+          <mxGeometry height="30" width="130" x="255" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[berichten.length === 0]" vertex="1">
+          <mxGeometry height="30" width="140" x="245" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-25" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Maak articles met titel en beschrijving">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="740" />
+              <mxPoint x="480" y="770" />
+            </Array>
+            <mxPoint x="450" y="740" as="sourcePoint" />
+            <mxPoint x="455" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0256" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="310" y="860" />
+            </Array>
+            <mxPoint x="500" y="860" as="sourcePoint" />
+            <mxPoint x="120" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Toon berichten en aantal">
+          <mxGeometry relative="1" width="80" x="0.0256" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="310" y="800" />
+            </Array>
+            <mxPoint x="500" y="800" as="sourcePoint" />
+            <mxPoint x="120" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-37" edge="1" parent="1" source="BH8upXzpA2tFCgR4xnSI-12" style="endArrow=none;html=1;rounded=0;exitX=0.155;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.603;entryY=0.856;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;" target="BH8upXzpA2tFCgR4xnSI-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="302.4522807017543" y="1300" as="sourcePoint" />
+            <mxPoint x="337.54" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-38" connectable="0" parent="BH8upXzpA2tFCgR4xnSI-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Toon foutmelding" vertex="1">
+          <mxGeometry relative="1" x="-0.0633" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BH8upXzpA2tFCgR4xnSI-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Geen berichten gevonden" vertex="1">
+          <mxGeometry height="30" width="170" x="230" y="870" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

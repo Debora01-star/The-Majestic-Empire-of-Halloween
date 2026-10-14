@@ -267,3 +267,102 @@ De testresultaten zijn opgeslagen in de map
 
 ### Status
 De functionele tests van de paginabouwer zijn geslaagd.
+
+
+## 👻 Week 7 — Halloween Fetch API en UML Sequence Diagram
+
+Voor de Week 7-opdracht is een aparte Halloween Fetch API-oefening
+gemaakt met HTML en JavaScript.
+
+De pagina haalt vijf berichten op uit een externe API en toont
+deze dynamisch op de webpagina.
+
+Daarnaast is een UML-sequencediagram gemaakt om de communicatie
+tussen de gebruiker, JavaScript en de API inzichtelijk te maken.
+
+### Bestanden
+- `halloween-fetch.html` — structuur van de Fetch API-oefenpagina
+- `halloween-fetch.js` — ophalen en verwerken van API-gegevens
+- `halloween-fetch-sequence.drawio` — bewerkbaar UML-sequencediagram
+
+### Functionaliteiten
+- Vijf berichten ophalen via de Fetch API
+- Gegevens ophalen van JSONPlaceholder
+- Berichten laden met een knop
+- Laadmelding tonen tijdens het ophalen
+- Bestaande resultaten verwijderen vóór een nieuwe aanvraag
+- Laadknop tijdelijk uitschakelen
+- HTTP-response controleren met `response.ok`
+- JSON-gegevens verwerken met `response.json()`
+- Berichten dynamisch weergeven met JavaScript
+- Voor ieder bericht een `<article>` maken
+- Titels en beschrijvingen toevoegen
+- Het aantal opgehaalde berichten tonen
+- Een melding tonen bij een lege berichtenlijst
+- Foutmeldingen tonen bij mislukte API-aanvragen
+- Laadknop opnieuw inschakelen met `finally`
+
+### Gebruikte JavaScript-technieken
+- Fetch API
+- `async` en `await`
+- `fetch()`
+- `response.ok`
+- `response.json()`
+- `try`, `catch` en `finally`
+- Arrays en objecten
+- `forEach()`
+- `createElement()`
+- `textContent`
+- `appendChild()`
+- `addEventListener()`
+- DOM-manipulatie
+- Asynchrone JavaScript
+- Foutafhandeling
+
+### UML Sequence Diagram
+Voor de Fetch API-oefening is een UML-sequencediagram gemaakt
+in draw.io binnen Visual Studio Code.
+
+Het diagram bevat drie deelnemers:
+- Gebruiker
+- Pagina / JavaScript
+- API
+
+De volgende onderdelen zijn weergegeven:
+- Gebruiker klikt op de laadknop
+- JavaScript toont een laadmelding
+- Bestaande resultaten worden leeggemaakt
+- De laadknop wordt tijdelijk uitgeschakeld
+- JavaScript verstuurt een Fetch-verzoek naar de API
+- De API stuurt een HTTP-response terug
+- JavaScript verwerkt de JSON-gegevens
+- Een `alt`-blok voor succes en fout
+- Een tweede `alt`-blok voor gevonden berichten en een lege lijst
+- Berichten of foutmeldingen worden weergegeven
+- De laadknop wordt opnieuw ingeschakeld via `finally`
+
+### Testen
+De Fetch API-oefening is functioneel getest.
+
+Onder andere de volgende situaties zijn gecontroleerd:
+- Correct ophalen en weergeven van vijf berichten
+- Twee keer op de laadknop klikken zonder dubbele berichten
+- Lege API-response met `_limit=0`
+- Foutafhandeling bij een ongeldige API-URL
+- Herstellen van de oorspronkelijke API-URL
+- Correct opnieuw laden van de berichten
+- Console controleren op JavaScript-fouten
+
+Na het testen is de oorspronkelijke API-URL hersteld:
+
+`https://jsonplaceholder.typicode.com/posts?_limit=5`
+
+### Status
+De Fetch API-oefening werkt correct.
+
+De functionele tests zijn geslaagd en het UML-sequencediagram
+is afgerond.
+
+De oefening is uitgevoerd binnen het persoonlijke Halloween-project
+**The Majestic Empire of Halloween**.
+
